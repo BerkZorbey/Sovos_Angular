@@ -15,6 +15,19 @@ namespace SovosCase.Services.Concrete
             _invoiceRepository = invoiceRepository;
         }
 
+        public async Task<ResponseModel<List<Invoice>>> GetAllInvoice()
+        {
+            var invoices = await _invoiceRepository.GetAllInvoice();
+            if(invoices.Success == true)
+            {
+                return new ResponseModel<List<Invoice>>(invoices.Model);
+            }
+            else
+            {
+                return new ResponseModel<List<Invoice>>(404,invoices.Exception);
+            }
+        }
+
         public async Task<ResponseModel<Invoice>> InsertInvoice(string invoice)
         {
             try
@@ -22,6 +35,7 @@ namespace SovosCase.Services.Concrete
                 if(invoice != null)
                 {
                     var newInvoice = JsonSerializer.Deserialize<Invoice>(invoice);
+                    if (newInvoice.InvoiceLine == null && newInvoice.InvoiceHeader == null) throw new Exception("Data is null");
                     var response = await _invoiceRepository.InsertInvoice(newInvoice);
                     if(response.Success == true)
                     {

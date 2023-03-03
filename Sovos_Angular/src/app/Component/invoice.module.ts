@@ -1,18 +1,19 @@
 import { HttpClientModule } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { InvoiceComponent } from './invoice.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    InvoiceComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule
+    BrowserModule, HttpClientModule, AgGridModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [InvoiceComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule { }
+export class InvoiceModule { }

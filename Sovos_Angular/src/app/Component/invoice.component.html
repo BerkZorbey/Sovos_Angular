@@ -1,0 +1,15 @@
+<input #fileUpload type="file" [accept]="'.json'" class="file-input" (change)="uploadFile($event)">
+
+<p *ngIf="errorMessage">{{errorMessage}}</p>
+
+<ag-grid-angular style="width: 100%; height: 100%"
+                 class="ag-theme-alpine"
+                 [columnDefs]="columnDefs"
+                 [defaultColDef]="defaultColDef"
+                 [rowData]="rowData$ | async"
+                 [rowSelection]="'multiple'"
+                 [animateRows]="true"
+                 (gridReady)="onGridReady($any($event))"
+                 (rowClicked)="onRowClicked($any($event))"></ag-grid-angular>
+
+

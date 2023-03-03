@@ -6,5 +6,6 @@ namespace SovosCase.Services.Abstract
     public interface IInvoiceService
     {
         Task<ResponseModel<Invoice>> InsertInvoice(string invoice);
+        Task<ResponseModel<List<Invoice>>> GetAllInvoice();
     }
 }

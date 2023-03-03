@@ -19,6 +19,21 @@ namespace Sovos_API.Controllers
             _invoiceService = invoiceService;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAllInvoices()
+        {
+            var response = await _invoiceService.GetAllInvoice();
+            if (response.Success == true)
+            {
+                return Ok(response.Model.ToJson());
+            }
+            else
+            {
+                return BadRequest(new { error = response.Exception });
+            }
+        } 
+
+
         [HttpPost]
         public async Task<IActionResult> InsertInvoice([FromBody] string invoice)
         {

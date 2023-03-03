@@ -10,7 +10,4 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\Sovos_Angular</BuildOutputFolder>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="src\app\Component\" />
-  </ItemGroup>
 </Project>
