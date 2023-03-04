@@ -6,3 +6,116 @@
 2023-03-04 19:39:03.610 +03:00 [ERR] Error: Data is null
 2023-03-04 19:39:08.271 +03:00 [INF] Invoice added succesfully
 2023-03-04 19:39:08.301 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:19:58.616 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:27:31.991 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:27:36.722 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:27:45.585 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:27:48.150 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:28:02.521 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:28:25.958 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:28:45.260 +03:00 [INF] Get Invoice 644c8ab1-57c7-4ed3-a9df-ea3e5b4322d8 succesfully
+2023-03-04 20:28:45.289 +03:00 [INF] Get Invoice 644c8ab1-57c7-4ed3-a9df-ea3e5b4322d8 succesfully
+2023-03-04 20:28:45.323 +03:00 [INF] Get Invoice 644c8ab1-57c7-4ed3-a9df-ea3e5b4322d8 succesfully
+2023-03-04 20:28:47.564 +03:00 [INF] Get Invoice a95d886d-e2f5-4310-9513-41223aa9bc1c succesfully
+2023-03-04 20:28:47.578 +03:00 [INF] Get Invoice a95d886d-e2f5-4310-9513-41223aa9bc1c succesfully
+2023-03-04 20:28:47.598 +03:00 [INF] Get Invoice a95d886d-e2f5-4310-9513-41223aa9bc1c succesfully
+2023-03-04 20:29:17.052 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:29:21.775 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:30:48.826 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:36:36.124 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:36:45.069 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:36:54.461 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:36:58.990 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:57:07.589 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:57:45.308 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:57:48.787 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:57:54.862 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:58:09.566 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:58:16.841 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:58:22.127 +03:00 [INF] Get Invoices succesfully
+2023-03-04 20:59:30.042 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:00:00.864 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:00:06.671 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:01:41.287 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:01:50.779 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:01:56.288 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:03:26.245 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:03:35.142 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:04:07.010 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:05:12.312 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:05:28.696 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:06:26.502 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:06:27.408 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:06:33.205 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:06:40.561 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:07:00.353 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:07:13.045 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:07:21.581 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:07:29.997 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:09:16.979 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:09:22.974 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:14:19.246 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:14:56.655 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:15:03.981 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:16:15.599 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:16:28.655 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:16:36.007 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:16:45.019 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:16:53.356 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:20:37.029 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:21:54.996 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:23:43.107 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:24:08.424 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:24:29.539 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:24:51.281 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:24:56.382 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:24:57.424 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:25:12.354 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:27:22.917 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:27:22.951 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:27:22.974 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:28:43.460 +03:00 [ERR] Error: Data is null
+2023-03-04 21:28:50.738 +03:00 [INF] Invoice added succesfully
+2023-03-04 21:28:50.769 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:31:27.902 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:32:07.902 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:32:14.970 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:32:37.330 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:32:51.649 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:32:58.198 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:33:01.916 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:33:06.995 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:33:10.827 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:33:10.842 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:33:10.863 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:33:22.151 +03:00 [INF] Invoice added succesfully
+2023-03-04 21:33:22.176 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:34:36.366 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:34:37.110 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:34:37.129 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:34:37.147 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:34:48.291 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:35:24.746 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:35:25.282 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:35:25.300 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:35:25.321 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:35:38.316 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:35:38.882 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:35:38.896 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:35:38.914 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:04.869 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:36:08.551 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:36:09.071 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:36:09.088 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:36:09.110 +03:00 [INF] Get Invoice 309b2da0-e943-4d03-b5c3-2335627f233a succesfully
+2023-03-04 21:36:30.263 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:36:30.834 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:30.852 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:30.873 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:52.696 +03:00 [INF] Get Invoices succesfully
+2023-03-04 21:36:53.796 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:53.818 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:36:53.839 +03:00 [INF] Get Invoice 301effa0-6d24-41d7-8c4c-a868bcd485d0 succesfully
+2023-03-04 21:37:07.415 +03:00 [INF] Get Invoice 931e5769-2228-4681-989e-e53be8883cee succesfully
+2023-03-04 21:37:07.434 +03:00 [INF] Get Invoice 931e5769-2228-4681-989e-e53be8883cee succesfully
+2023-03-04 21:37:07.462 +03:00 [INF] Get Invoice 931e5769-2228-4681-989e-e53be8883cee succesfully

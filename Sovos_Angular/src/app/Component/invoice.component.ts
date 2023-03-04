@@ -59,7 +59,7 @@ export class InvoiceComponent {
   }
   public onGridReady(params: GridReadyEvent) {
     this.rowData$ = this.httpClient.get<Invoice[]>('invoice');
-    
+    this.agGrid.api.sizeColumnsToFit();
   }
   onRowClicked(event: any) {
     this.openDialog(event);
