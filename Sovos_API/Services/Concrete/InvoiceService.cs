@@ -28,6 +28,19 @@ namespace SovosCase.Services.Concrete
             }
         }
 
+        public async Task<ResponseModel<Invoice>> GetInvoiceById(string id)
+        {
+            var invoice = await _invoiceRepository.GetInvoiceById(id);
+            if (invoice.Success == true)
+            {
+                return new ResponseModel<Invoice>(invoice.Model);
+            }
+            else
+            {
+                return new ResponseModel<Invoice>(404, invoice.Exception);
+            }
+        }
+
         public async Task<ResponseModel<Invoice>> InsertInvoice(string invoice)
         {
             try

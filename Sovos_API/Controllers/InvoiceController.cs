@@ -31,8 +31,20 @@ namespace Sovos_API.Controllers
             {
                 return BadRequest(new { error = response.Exception });
             }
-        } 
-
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetInvoiceById(string id)
+        {
+            var response = await _invoiceService.GetInvoiceById(id);
+            if (response.Success == true)
+            {
+                return Ok(response.Model.ToJson());
+            }
+            else
+            {
+                return BadRequest(new { error = response.Exception });
+            }
+        }
 
         [HttpPost]
         public async Task<IActionResult> InsertInvoice([FromBody] string invoice)

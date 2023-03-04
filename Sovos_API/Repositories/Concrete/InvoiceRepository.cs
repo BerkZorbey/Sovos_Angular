@@ -29,6 +29,19 @@ namespace SovosCase.Repositories.Concrete
             }
         }
 
+        public async Task<ResponseModel<Invoice>> GetInvoiceById(string id)
+        {
+            try
+            {
+                var invoice = await _invoice.FindAsync(x => x._id == id).Result.FirstOrDefaultAsync();
+                return new ResponseModel<Invoice>(invoice);
+            }
+            catch(Exception ex)
+            {
+                return new ResponseModel<Invoice>(404, ex.Message);
+            }
+        }
+
         public async Task<ResponseModel<Invoice>> InsertInvoice(Invoice invoice)
         {
             try

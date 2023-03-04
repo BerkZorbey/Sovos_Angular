@@ -6,6 +6,7 @@ namespace SovosCase.Repositories.Abstract
     public interface IInvoiceRepository
     {
         Task<ResponseModel<Invoice>> InsertInvoice(Invoice invoice);
+        Task<ResponseModel<Invoice>> GetInvoiceById(string id);
         Task<ResponseModel<List<Invoice>>> GetAllInvoice();
     }
 }
