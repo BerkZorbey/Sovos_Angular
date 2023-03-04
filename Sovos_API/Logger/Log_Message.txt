@@ -1,0 +1,8 @@
+2023-03-04 19:34:36.306 +03:00 [INF] Get Invoices succesfully
+2023-03-04 19:35:19.912 +03:00 [ERR] Error: Data is null
+2023-03-04 19:38:48.240 +03:00 [INF] Get Invoices succesfully
+2023-03-04 19:38:59.658 +03:00 [INF] Invoice added succesfully
+2023-03-04 19:38:59.697 +03:00 [INF] Get Invoices succesfully
+2023-03-04 19:39:03.610 +03:00 [ERR] Error: Data is null
+2023-03-04 19:39:08.271 +03:00 [INF] Invoice added succesfully
+2023-03-04 19:39:08.301 +03:00 [INF] Get Invoices succesfully
