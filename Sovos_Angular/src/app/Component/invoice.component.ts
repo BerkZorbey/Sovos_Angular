@@ -1,9 +1,13 @@
-import { Component, ViewChild} from '@angular/core';
+import { Component, TemplateRef, ViewChild} from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Invoice } from '../Model/invoice.model';
 import { ColDef, GridReadyEvent } from 'ag-grid-community';
 import { AgGridAngular } from 'ag-grid-angular';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogComponent } from './dialog.component';
+
+
 
 @Component({
   selector: 'app-invoice',
@@ -22,7 +26,7 @@ export class InvoiceComponent {
     { headerName: 'Date', field: 'InvoiceHeader.Date' }
   ];
 
-
+  
   public defaultColDef: ColDef = {
     sortable: true,
     filter: true,
@@ -34,16 +38,16 @@ export class InvoiceComponent {
     InvoiceLine: undefined
   };
 
-  constructor(private httpClient: HttpClient) {
+  constructor(private httpClient: HttpClient, private dialog: MatDialog) {
    
   }
 
-
+  
 
   public rowData$!: Observable<any[]>;
 
   @ViewChild(AgGridAngular) agGrid!: AgGridAngular;
-  
+
   public errorMessage: any;
 
   public postInvoice(): Observable<Invoice> {
@@ -54,11 +58,15 @@ export class InvoiceComponent {
     this.rowData$ = this.httpClient.get<Invoice[]>('invoice');
     
   }
-  public onRowClicked(event: any) {
-    
+  openDialog() {
+    this.dialog.open(DialogComponent, {
+      height: '400px',
+      width: '600px',
+    });
   }
 
 
+  
   public async uploadFile(event: any) {
     const reader = new FileReader();
     reader.onloadend = (e) => {
