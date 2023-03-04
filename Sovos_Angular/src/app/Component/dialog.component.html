@@ -1,10 +1,33 @@
 <link href="https://unpkg.com/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
 
-<h1 mat-dialog-title>Delete file</h1>
+<h1 mat-dialog-title>Invoice Detail</h1>
 <div mat-dialog-content>
-  Would you like to delete cat.jpeg?
+  InvoiceId : {{InvoiceModel.InvoiceHeader._id}}
+  <br />
+  SenderTitle : {{InvoiceModel.InvoiceHeader.SenderTitle}}
+  <br />
+  ReceiverTitle : {{InvoiceModel.InvoiceHeader.ReceiverTitle}}
+  <br />
+  Date : {{InvoiceModel.InvoiceHeader.Date}}
+  <br />
+  <hr />
+  <div *ngFor="let invoiceLine of InvoiceModel.InvoiceLine">
+    Id : {{invoiceLine._id}}
+    <br />
+    Name : {{invoiceLine.Name}}
+    <br />
+    Quantity : {{invoiceLine.Quantity}}
+    <br />
+    UnitCode : {{invoiceLine.UnitCode}}
+    <br />
+    UnitPrice : {{invoiceLine.UnitPrice}}
+    <br />
+    <hr />
+  </div>
+  <p>Product Total Price = {{totalPrice}}</p>
+
 </div>
 <div mat-dialog-actions>
-  <button mat-button mat-dialog-close>No</button>
-  <button mat-button mat-dialog-close cdkFocusInitial>Ok</button>
+  <button mat-button mat-dialog-close>Close</button>
 </div>
+

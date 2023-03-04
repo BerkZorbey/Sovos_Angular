@@ -53,35 +53,43 @@ export class InvoiceComponent {
   public postInvoice(): Observable<Invoice> {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' })
     return this.httpClient.post<Invoice>('invoice', JSON.stringify(this.data), { headers: headers });
+    
   }
   public onGridReady(params: GridReadyEvent) {
     this.rowData$ = this.httpClient.get<Invoice[]>('invoice');
     
   }
-  openDialog() {
+  onRowClicked(event: any) {
+    this.openDialog(event);
+}
+  
+
+  openDialog(event : any) {
     this.dialog.open(DialogComponent, {
       height: '400px',
       width: '600px',
+      data: {
+        id: event?.data._id
+        }
     });
   }
-
-
   
   public async uploadFile(event: any) {
     const reader = new FileReader();
     reader.onloadend = (e) => {
       this.data = reader.result?.toString();
-
+      
       this.postInvoice().subscribe(
         res => {
           this.InvoiceModel.InvoiceHeader = res.InvoiceHeader;
           this.InvoiceModel.InvoiceLine = res.InvoiceLine;
-
+         
         }, error => this.errorMessage = JSON.stringify(error.statusText));
+      
+      
 
     };
     reader.readAsText(event.target.files[0]);
-
   }
 
 
