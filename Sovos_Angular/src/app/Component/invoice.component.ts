@@ -6,6 +6,7 @@ import { ColDef, GridReadyEvent } from 'ag-grid-community';
 import { AgGridAngular } from 'ag-grid-angular';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from './dialog.component';
+import * as $ from 'jquery';
 
 
 
@@ -54,6 +55,7 @@ export class InvoiceComponent {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' })
     return this.httpClient.post<Invoice>('invoice', JSON.stringify(this.data), { headers: headers });
     
+     
   }
   public onGridReady(params: GridReadyEvent) {
     this.rowData$ = this.httpClient.get<Invoice[]>('invoice');
@@ -83,13 +85,13 @@ export class InvoiceComponent {
         res => {
           this.InvoiceModel.InvoiceHeader = res.InvoiceHeader;
           this.InvoiceModel.InvoiceLine = res.InvoiceLine;
-         
+          this.onGridReady(event);
         }, error => this.errorMessage = JSON.stringify(error.statusText));
       
-      
-
+     
     };
     reader.readAsText(event.target.files[0]);
+    
   }
 
 
